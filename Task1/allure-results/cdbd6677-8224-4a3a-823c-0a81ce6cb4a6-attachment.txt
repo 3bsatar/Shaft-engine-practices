@@ -1,0 +1,59 @@
+[INFO ] 2023-08-06 18:29:45.897 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Powered by SHAFT Engine v7.2.20230621                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-08-06 18:29:46.663 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-08-06 18:29:46.663 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-08-06 18:29:46.746 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-08-06 18:29:47.072 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-08-06 18:29:47.254 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-08-06 18:29:47.349 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-08-06 18:29:47.356 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-08-06 18:29:47.543 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'gui_phptravels_tests.SignUp.userSignUp'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-08-06 18:29:47.569 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-08-06 18:29:47.579 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: E:\Paymob Internship\Shaft ..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-08-06 18:29:47.582 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-08-06 18:29:47.583 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[WARN ] 2023-08-06 18:29:47.879 [main] ReportManager - Aug 06, 2023 6:29:47 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+[WARN ] 2023-08-06 18:29:47.879 [main] ReportManager - INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[WARN ] 2023-08-06 18:30:29.724 [main] ReportManager - Aug 06, 2023 6:30:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-08-06 18:30:29.724 [main] ReportManager - WARNING: Unable to find CDP implementation matching 103
+[WARN ] 2023-08-06 18:30:29.725 [main] ReportManager - Aug 06, 2023 6:30:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+[WARN ] 2023-08-06 18:30:29.725 [main] ReportManager - WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2023-08-06 18:30:29.736 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-08-06 18:30:29.768 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2023-08-06 18:30:29.784 [main] ReportManager - Initial URL: "data:,"
+[INFO ] 2023-08-06 18:30:32.473 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2023-08-06 18:30:32.727 [main] ReportManager - Type "laptop" into "Search store".
+[INFO ] 2023-08-06 18:30:32.915 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-08-06 18:30:32.944 [main] ReportManager - Click "SEARCH".
+[INFO ] 2023-08-06 18:30:34.919 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-08-06 18:30:34.951 [main] ReportManager - Click "Picture of Lenovo Thinkpad X1 Carbon Laptop".
+[INFO ] 2023-08-06 18:30:36.290 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-08-06 18:30:36.322 [main] ReportManager - Click "Email a friend".
+[INFO ] 2023-08-06 18:30:36.928 [main] ReportManager - Type "zeyadnagi2@gmail.com" into "Friend's email:".
+[INFO ] 2023-08-06 18:30:37.192 [main] ReportManager - Type "mahmoudmesalem@paymob.com" into "Your email address:".
+[INFO ] 2023-08-06 18:30:37.406 [main] ReportManager - Type "Done!" into "Personal message:".
+[INFO ] 2023-08-06 18:30:37.597 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-08-06 18:30:37.632 [main] ReportManager - Click "SEND EMAIL".
+[INFO ] 2023-08-06 18:30:37.640 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: userSignUp'
+[INFO ] 2023-08-06 18:30:37.731 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[INFO ] 2023-08-06 18:30:37.732 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-08-06 18:30:37.732 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-08-06 18:30:37.732 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
