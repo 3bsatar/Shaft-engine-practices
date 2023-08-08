@@ -13,7 +13,6 @@ import com.shaft.gui.browser.BrowserActions;
 import com.shaft.gui.element.ElementActions;
 import com.shaft.driver.SHAFT;
 
-
 public class SignUp {
 
     @Test
