@@ -1,0 +1,194 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'gui_phptravels_tests.SignUp.userSignUp'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @07-08-2023 21:11:12.0682 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: E:\Paymob Internship\Shaft ..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify} @07-08-2023 21:11:12.0697 PM
+[ReportManager] Attempting to run locally on: "windows | Chrome". @07-08-2023 21:11:12.0698 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @07-08-2023 21:11:12.0699 PM
+[ReportManager] Successfully Opened: "windows | Chrome". @07-08-2023 21:11:46.0100 PM
+[ReportManager] Target URL: "https://demo.nopcommerce.com/" @07-08-2023 21:11:46.0159 PM
+[ReportManager] Initial URL: "data:," @07-08-2023 21:11:46.0190 PM
+[ReportManager] Navigate to url "https://demo.nopcommerce.com/". @07-08-2023 21:11:46.0402 PM
+[ReportManager] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e88239629bd1e0eb86281dfe6625f28d, executeCdpCommand {cmd=Page.getLayoutMetrics, params={}}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\ELMOTK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58086}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58086/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e88239629bd1e0eb86281dfe6625f28d
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+ org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+ org.openqa.selenium.chromium.AddHasCdp$1.executeCdpCommand(AddHasCdp.java:60)
+ org.openqa.selenium.chromium.ChromiumDriver.executeCdpCommand(ChromiumDriver.java:250)
+ com.shaft.gui.internal.image.ScreenshotHelper.makeFullScreenshot(ScreenshotHelper.java:32)
+ com.shaft.gui.internal.image.ScreenshotManager.takeFullPageScreenshot(ScreenshotManager.java:256)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:428)
+ com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:374)
+ com.shaft.gui.internal.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:121)
+ com.shaft.gui.element.internal.ElementActionsHelper.takeScreenshot(ElementActionsHelper.java:598)
+ com.shaft.gui.element.internal.ElementActionsHelper.createReportAttachments(ElementActionsHelper.java:1041)
+ com.shaft.gui.element.internal.ElementActionsHelper.reportActionResult(ElementActionsHelper.java:1079)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:976)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:913)
+ com.shaft.gui.element.internal.FluentElementActions.type(FluentElementActions.java:852)
+ gui_phptravels_tests.SignUp.userSignUp(SignUp.java:23)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @07-08-2023 21:12:13.0624 PM
+[ReportManager] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e88239629bd1e0eb86281dfe6625f28d, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\ELMOTK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58086}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58086/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e88239629bd1e0eb86281dfe6625f28d
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+ org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316)
+ com.shaft.gui.internal.image.ScreenshotManager.takeViewportScreenshot(ScreenshotManager.java:233)
+ com.shaft.gui.internal.image.ScreenshotManager.takeFullPageScreenshot(ScreenshotManager.java:260)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:428)
+ com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:374)
+ com.shaft.gui.internal.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:121)
+ com.shaft.gui.element.internal.ElementActionsHelper.takeScreenshot(ElementActionsHelper.java:598)
+ com.shaft.gui.element.internal.ElementActionsHelper.createReportAttachments(ElementActionsHelper.java:1041)
+ com.shaft.gui.element.internal.ElementActionsHelper.reportActionResult(ElementActionsHelper.java:1079)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:976)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:913)
+ com.shaft.gui.element.internal.FluentElementActions.type(FluentElementActions.java:852)
+ gui_phptravels_tests.SignUp.userSignUp(SignUp.java:23)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @07-08-2023 21:12:13.0638 PM
+[ReportManager] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e88239629bd1e0eb86281dfe6625f28d, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\ELMOTK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58086}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58086/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e88239629bd1e0eb86281dfe6625f28d
+ java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+ java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+ java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+ org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+ org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+ org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+ org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+ org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316)
+ com.shaft.gui.internal.image.ScreenshotManager.takeViewportScreenshot(ScreenshotManager.java:233)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:436)
+ com.shaft.gui.internal.image.ScreenshotManager.takeScreenshot(ScreenshotManager.java:432)
+ com.shaft.gui.internal.image.ScreenshotManager.internalCaptureScreenShot(ScreenshotManager.java:374)
+ com.shaft.gui.internal.image.ScreenshotManager.captureScreenShot(ScreenshotManager.java:121)
+ com.shaft.gui.element.internal.ElementActionsHelper.takeScreenshot(ElementActionsHelper.java:598)
+ com.shaft.gui.element.internal.ElementActionsHelper.createReportAttachments(ElementActionsHelper.java:1041)
+ com.shaft.gui.element.internal.ElementActionsHelper.reportActionResult(ElementActionsHelper.java:1079)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:976)
+ com.shaft.gui.element.internal.ElementActionsHelper.failAction(ElementActionsHelper.java:913)
+ com.shaft.gui.element.internal.FluentElementActions.type(FluentElementActions.java:852)
+ gui_phptravels_tests.SignUp.userSignUp(SignUp.java:23)
+ java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+ java.base/java.lang.reflect.Method.invoke(Method.java:578)
+ org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+ org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+ org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+ org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+ org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+ org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+ org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+ java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+ org.testng.TestRunner.privateRun(TestRunner.java:848)
+ org.testng.TestRunner.run(TestRunner.java:621)
+ org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+ org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+ org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+ org.testng.SuiteRunner.run(SuiteRunner.java:336)
+ org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+ org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+ org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+ org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+ org.testng.TestNG.runSuites(TestNG.java:1114)
+ org.testng.TestNG.run(TestNG.java:1082)
+ com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+ com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) @07-08-2023 21:12:13.0647 PM
+[ReportManager] Failed to Type into "By.id: small-searchterms". Root cause: "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed" @07-08-2023 21:12:13.0650 PM
+[ReportManager] Successfully created attachment 'Element Action Exception - Type - Stacktrace' @07-08-2023 21:12:13.0655 PM

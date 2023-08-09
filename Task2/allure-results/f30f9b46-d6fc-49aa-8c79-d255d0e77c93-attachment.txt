@@ -1,0 +1,20 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                        Test Method: 'Tests.Login.login'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @09-08-2023 10:32:33.0504 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: E:\Paymob Internship\Shaft ..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify} @09-08-2023 10:32:33.0515 AM
+[ReportManager] Attempting to run locally on: "windows | Chrome". @09-08-2023 10:32:33.0515 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @09-08-2023 10:32:33.0516 AM
+[ReportManager] Successfully Opened: "windows | Chrome". @09-08-2023 10:33:05.0042 AM
+[ReportManager] Target URL: "https://developers.facebook.com/docs/development/build-and-test/test-users" @09-08-2023 10:33:05.0078 AM
+[ReportManager] Initial URL: "data:," @09-08-2023 10:33:05.0095 AM
+[ReportManager] Navigate to url "https://developers.facebook.com/docs/development/build-and-test/test-users". @09-08-2023 10:33:07.0525 AM
+[ReportManager] Moved the mouse to the middle of the element. @09-08-2023 10:33:07.0731 AM
+[ReportManager] Click "Log In". @09-08-2023 10:33:07.0777 AM
+[ReportManager] Type "test001@test.com" into "Email address or phone number". @09-08-2023 10:33:08.0780 AM
+[ReportManager] Type "$$Mahmoud123$$" into "Password". @09-08-2023 10:33:09.0084 AM
+[ReportManager] Moved the mouse to the middle of the element. @09-08-2023 10:33:09.0250 AM
+[ReportManager] Click "Log in". @09-08-2023 10:33:09.0286 AM
